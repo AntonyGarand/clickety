@@ -2,7 +2,9 @@
   "name": "@clickety/source",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "build-web":"nx build clickety"
+  },
   "private": true,
   "dependencies": {
     "@apollo/client": "^3.7.17",

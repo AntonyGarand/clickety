@@ -69,7 +69,7 @@ export default function Index() {
 
     // For example: webrtc://r.ossrs.net/live/livestream
     const url =
-      'http://5.161.53.116:1985/rtc/v1/whip-play/?app=live&stream=livestream';
+      'http://torvesta.osrs.cloud:1985/rtc/v1/whip-play/?app=live&stream=livestream';
     sdk.play(url).catch(function (reason) {
       sdk.close();
       // document.getElementById('rtc_media_player').hide();
