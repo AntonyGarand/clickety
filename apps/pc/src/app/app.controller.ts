@@ -41,16 +41,22 @@ export class AppController {
   // Units is % of place
   private deadzones: { x: number; y: number; width: number; height: number }[] =
     [
-      // Topbar
-      { x: 0, y: 0, width: 1, height: 0.05 },
-      // Sidebar
-      { x: 0.95, y: 0, width: .10, height: 1 },
-      // Wiki
-      { x: .86, y: .32, width: .20, height: 0.05 },
-      // Settings
-      { x: .74, y: .92, width: .13, height: 0.10 },
-      // World
-      { x: 0, y: .92, width: .14, height: 0.10 },
+      { x: 0, y: 0, width: 1, height: 0.3125 },
+      { x: 0.975, y: 0, width: 0.026, height: 1 },
+      { x: 0.927, y: 0.268, width: 0.073, height: 0.035 },
+      { x: 0.821, y: 0.935, width: 0.094, height: 0.065 },
+      { x: 0.893, y: 0.851, width: 0.065, height: 0.93 },
+      { x: 0.143, y: 0.769, width: 0.096, height: 0.074 },
+      // // Topbar
+      // { x: 0, y: 0, width: 1, height: 0.05 },
+      // // Sidebar
+      // { x: 0.95, y: 0, width: .10, height: 1 },
+      // // Wiki
+      // { x: .86, y: .32, width: .20, height: 0.05 },
+      // // Settings
+      // { x: .74, y: .92, width: .13, height: 0.10 },
+      // // World
+      // { x: 0, y: .92, width: .14, height: 0.10 },
     ];
 
   @Interval('clicks', 600)
