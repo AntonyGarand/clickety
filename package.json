@@ -4,7 +4,9 @@
   "license": "MIT",
   "scripts": {
     "build-web":"nx build clickety",
-    "build-api":"nx build api"
+    "build-api":"nx build api",
+    "run-web": "nx run clickety:serve --configuration=production",
+    "run-api": "nx run api:serve --configuration=production"
   },
   "private": true,
   "dependencies": {
